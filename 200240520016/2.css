@@ -1,0 +1,64 @@
+html ,body {
+    margin: 0;
+}
+
+.main {
+    background: url('https://picsum.photos/1400/1210');
+
+    background-color: turquoise;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-main {
+    padding: 100px;
+    background: url('https://picsum.photos/300/306');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#username {
+    font-size: 25px;
+    
+}
+
+
+#password {
+    font-size: 25px;
+}
+
+#email {
+    font-size: 25px;
+}
+
+.submit {
+    font-size: 20px;
+
+}
+
+
+#parentid {
+    width: 300px;
+    
+    display: flex;
+}
+
+#childid {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#commentid {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+

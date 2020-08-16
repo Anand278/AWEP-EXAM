@@ -1,0 +1,75 @@
+html ,body {
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: royalblue;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-right {
+    /* background-color: orange; */
+    display: flex;
+    flex: 8;
+    align-items: center;
+}
+
+#homeid {
+    font-size: 25px;
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    justify-content: start;
+    align-items: center;
+    color: white;
+   
+}
+
+
+#aboutusid {
+    font-size: 25px;
+    display: flex;
+    flex: 8;
+    justify-content: start;
+    align-items: center;
+    color: white;
+
+    
+}
+
+.nav-left {
+    /* background-color: green; */
+    display: flex;
+    flex: 1;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.main-body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block {
+    background-color: teal;
+    color: white;
+    font-size: 32px;
+    height: 200px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <link rel="stylesheet" href="2.css">
+    <script src="2.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="sub-main">
+        <form id="form" action="#" method="get">
+            <label for="username" id="username">Username </label><br>
+            <input type="text" name="" placeholder="username" id="inputid"
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[0-9]).{5,12}" required/>
+            <br> <br>
+
+            <label for="password" id="password">Password </label><br>
+            <input type="password" name="" placeholder="password"
+            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!#$%^&*])(?=.*[0-9]).{5,12}" required/>
+            <br><br>
+
+            <label for="email" id="email">Email </label><br>
+            <input type="email" name="" id="emailid" placeholder="email"  required/>
+            <br><br>
+
+            <button class="submit" onclick="submithere()" >
+                Submit
+            </button>
+        </form>
+        </div>
+
+        <div id="parentid">
+            <div id="childid">
+                <div id="commentid">
+                    demo username
+                </div>
+                <button class="btnid">
+                    delete
+                </button>
+            </div>
+    </div>
+</div>
+</body>
+</html>
